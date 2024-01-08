@@ -9,3 +9,6 @@ print(name.upper(), name.lower())
 
 #substring 
 print(name[2 : 5])
+
+#length
+print(len(name))
