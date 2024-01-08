@@ -3,4 +3,4 @@
 fruits = ['orange', 'banana', 'apple', 'cherry', 'plum']
 fruits.append('pineapple')
 
-print(fruits)
+print(fruits[3 :])
