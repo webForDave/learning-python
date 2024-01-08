@@ -12,3 +12,7 @@ print(name[2 : 5])
 
 #length
 print(len(name))
+
+#count
+user = input('Enter a character : ')
+print(name.count(user))
