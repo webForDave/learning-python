@@ -88,3 +88,10 @@ man = dict([
     ("country", "Nigeria")
 ])
 print(man)
+
+details = dict(
+    name = 'Sharon',
+    age = 22,
+    country = 'Nigria'
+)
+print(details)
