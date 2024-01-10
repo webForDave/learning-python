@@ -65,3 +65,13 @@ print(len(my_dict))
 
 my_dict.clear()
 print(my_dict)
+
+
+person = {
+    "name": "David",
+    "age": 19,
+    "ninjas" : {
+        "yoshi": "black",
+        "ryu": "Red"
+    }
+}
