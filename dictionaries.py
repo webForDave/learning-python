@@ -69,3 +69,5 @@ else :
     print(False)
 
 print(len(my_dict))
+
+my_dict.clear()
