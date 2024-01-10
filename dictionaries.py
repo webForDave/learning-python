@@ -101,3 +101,12 @@ del man["married"]
 del details["married"]
 print(man)
 print(details)
+
+
+#using integer as dictionary key
+car = dict([
+    (1, 1997),
+    (2, 'Honda'),
+    (3, 'Jackrel')
+])
+print(car)
