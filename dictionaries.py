@@ -42,3 +42,5 @@ my_dict = {
     "apple": 10,
     "berry": 2
 }
+
+print(my_dict["berry"])
