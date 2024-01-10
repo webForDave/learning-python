@@ -77,3 +77,4 @@ person = {
 }
 
 print(person)
+print(person["ninjas"])
