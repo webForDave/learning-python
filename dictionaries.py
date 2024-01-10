@@ -82,3 +82,10 @@ details = dict(
 #accessing elements in a dictionary 
 print(man["age"])
 print(details["country"])
+
+
+#adding an entry to a dictionary
+man["married"] = False
+details["married"] = True
+print(man)
+print(details)
