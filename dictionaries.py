@@ -123,3 +123,7 @@ human["pets"] = dict(cat = 'Fido', dog = 'Sox')
 #retreiving sub-list and sub-dictionary
 print(human["children"][-1])
 print(human["pets"]["dog"])
+
+#built-in methods
+print("spouse" in human)
+print("gender" not in human)
