@@ -110,3 +110,14 @@ car = dict([
     (3, 'Jackrel')
 ])
 print(car)
+
+
+#building a dictionary increamnetally
+human = {}
+human["name"] = 'Sara'
+human["age"] = 50
+human["spouse"] = 'Eric'
+human["children"] = ['Sam', 'Jon', 'Ryu']
+human["pets"] = dict(cat = 'Fido', dog = 'Sox')
+
+print(human)
