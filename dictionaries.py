@@ -89,3 +89,8 @@ man["married"] = False
 details["married"] = True
 print(man)
 print(details)
+
+
+#updating an entry
+man["country"] = 'Austrailia'
+details["country"] = 'Russia'
