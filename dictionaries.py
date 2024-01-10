@@ -78,3 +78,7 @@ details = dict(
     age = 22,
     country = 'Nigria'
 )
+
+#accessing elements in a dictionary 
+print(man["age"])
+print(details["country"])
