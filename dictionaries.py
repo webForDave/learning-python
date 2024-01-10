@@ -54,9 +54,16 @@ for value in my_dict :
     print(my_dict[value])
 
 
-
-if "mango" in my_dict :
-    print (True)
+if 20 in my_dict:
+    print('Yea')
 
 else : 
-    print(False)
+    print('No')
+
+
+
+# if "mango" in my_dict :
+#     print (True)
+
+# else : 
+#     print(False)
