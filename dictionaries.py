@@ -75,3 +75,5 @@ person = {
         "ryu": "Red"
     }
 }
+
+print(person)
