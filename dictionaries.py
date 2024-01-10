@@ -120,4 +120,6 @@ human["spouse"] = 'Eric'
 human["children"] = ['Sam', 'Jon', 'Ryu']
 human["pets"] = dict(cat = 'Fido', dog = 'Sox')
 
-print(human)
+#retreiving sub-list and sub-dictionary
+print(human["children"][-1])
+print(human["pets"]["dog"])
