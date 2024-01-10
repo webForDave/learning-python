@@ -37,3 +37,8 @@ song = {
 }
 
 
+my_dict = {
+    "mango": "5",
+    "apple": 10,
+    "berry": 2
+}
