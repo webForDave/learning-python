@@ -94,3 +94,10 @@ print(details)
 #updating an entry
 man["country"] = 'Austrailia'
 details["country"] = 'Russia'
+
+
+#deleting entries of a dictionary
+del man["married"]
+del details["married"]
+print(man)
+print(details)
