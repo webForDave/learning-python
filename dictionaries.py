@@ -76,5 +76,6 @@ person = {
     }
 }
 
-print(person)
+person["ninjas"]['dave'] = "Yellow"
+
 print(person["ninjas"])
