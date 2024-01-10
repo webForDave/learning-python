@@ -50,5 +50,5 @@ my_dict["orange"] = 4
 del(my_dict["orange"])
 print(my_dict)
 
-for i in my_dict :
-    print(i)
+for value in my_dict :
+    print(my_dict[value])
