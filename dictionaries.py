@@ -38,9 +38,12 @@ song = {
 
 
 my_dict = {
-    "mango": "5",
+    "mango": 5,
     "apple": 10,
     "berry": 2
 }
 
 print(my_dict["berry"])
+
+my_dict["orange"] = 20
+print(my_dict)
