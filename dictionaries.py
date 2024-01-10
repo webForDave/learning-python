@@ -52,3 +52,11 @@ print(my_dict)
 
 for value in my_dict :
     print(my_dict[value])
+
+
+
+if "mango" in my_dict :
+    print (True)
+
+else : 
+    print(False)
