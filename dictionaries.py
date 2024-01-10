@@ -82,16 +82,17 @@
 
 
 
+
+#one way of creating a dictionary
 man = dict([
     ("name", "David"),
     ("age", 19),
     ("country", "Nigeria")
 ])
-print(man)
 
+#another way of creating a dictionary
 details = dict(
     name = 'Sharon',
     age = 22,
     country = 'Nigria'
 )
-print(details)
