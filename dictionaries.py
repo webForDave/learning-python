@@ -71,3 +71,4 @@ else :
 print(len(my_dict))
 
 my_dict.clear()
+print(my_dict)
