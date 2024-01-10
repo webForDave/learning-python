@@ -62,8 +62,10 @@ else :
 
 
 
-# if "mango" in my_dict :
-#     print (True)
+if "mango" in my_dict :
+    print (True)
 
-# else : 
-#     print(False)
+else : 
+    print(False)
+
+print(len(my_dict))
