@@ -49,3 +49,6 @@ my_dict["orange"] = 20
 my_dict["orange"] = 4
 del(my_dict["orange"])
 print(my_dict)
+
+for i in my_dict :
+    print(i)
