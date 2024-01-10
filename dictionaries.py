@@ -47,4 +47,5 @@ print(my_dict["berry"])
 
 my_dict["orange"] = 20
 my_dict["orange"] = 4
+del(my_dict["orange"])
 print(my_dict)
