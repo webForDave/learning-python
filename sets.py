@@ -26,3 +26,5 @@ print(odd_person)
 #defining a range of numbers
 sequence = range(10, 25)
 print(sequence)
+
+userInput = int(input('Enter a randon number : '))
