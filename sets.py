@@ -21,3 +21,8 @@ print(mutual)
 #finding the difference between two sets
 odd_person = names.difference(friends)
 print(odd_person)
+
+
+#defining a range of numbers
+sequence = range(10, 25)
+print(sequence)
