@@ -8,4 +8,8 @@ names.add('David')
 names.update(['Kenise', 'John', "Bill"])
 print(names)
 
-firends = {'Kenise', 'Rob', 'Victor'} 
+friends = {'Kenise', 'Rob', 'Victor'} 
+
+#finding the union of two sets
+everyone = names.union(friends)
+print(everyone)
