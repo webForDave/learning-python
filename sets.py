@@ -17,3 +17,7 @@ print(everyone)
 #finding the intersection between two sets
 mutual = names.intersection(friends)
 print(mutual)
+
+#finding the difference between two sets
+odd_person = names.difference(friends)
+print(odd_person)
