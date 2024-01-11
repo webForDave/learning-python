@@ -13,3 +13,7 @@ friends = {'Kenise', 'Rob', 'Victor'}
 #finding the union of two sets
 everyone = names.union(friends)
 print(everyone)
+
+#finding the intersection between two sets
+mutual = names.intersection(friends)
+print(mutual)
