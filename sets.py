@@ -7,3 +7,5 @@ names.add('David')
 #adding multiple elements to a set using the update method
 names.update(['Kenise', 'John', "Bill"])
 print(names)
+
+firends = {'Kenise', 'Rob', 'Victor'} 
