@@ -28,3 +28,12 @@ sequence = range(10, 25)
 print(sequence)
 
 userInput = int(input('Enter a randon number : '))
+
+if userInput <= 0 :
+    print('Invalid number, start from 1')
+
+elif userInput in sequence :
+    print('You guessed right, you\'re in range')
+
+else :
+    print('Try again')
