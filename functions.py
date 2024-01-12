@@ -35,3 +35,6 @@ show_info(tv_show = {
     "seasons": 5,
     "initial_release": 2008
 })
+
+seq =  'hannah'
+print(seq[ : : -1 ])
