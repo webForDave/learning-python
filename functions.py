@@ -18,6 +18,10 @@ division(6, 2)
 
 def multiplication (num1, num2) :
 
-    print(num1 * num2)
+    if num2 == 0 :
+        print('Err, you can\'t pass in 0')
 
-multiplication(6, 2)
+    else : 
+        print(num1 * num2)
+
+multiplication(6, 0)
