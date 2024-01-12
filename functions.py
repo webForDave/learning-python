@@ -15,3 +15,9 @@ def division (num1, num2) :
     print(num1 // num2)
 
 division(6, 2)
+
+def multiplication (num1, num2) :
+
+    print(num1 * num2)
+
+multiplication(6, 2)
