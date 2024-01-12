@@ -27,16 +27,16 @@ print(odd_person)
 sequence = range(10, 25)
 print(sequence)
 
-userInput = int(input('Enter a randon number : '))
+# userInput = int(input('Enter a randon number : '))
 
-if userInput <= 0 :
-    print('Invalid number, start from 1')
+# if userInput <= 0 :
+#     print('Invalid number, start from 1')
 
-elif userInput in sequence :
-    print('You guessed right, you\'re in range')
+# elif userInput in sequence :
+#     print('You guessed right, you\'re in range')
 
-elif userInput not in sequence :
-    print('Wrong, too high')
+# elif userInput not in sequence :
+#     print('Wrong, too high')
 
 
 
@@ -47,3 +47,5 @@ a = {'apple', 'mango', 'pear', 'carrot'}
 b = {2, 4, 6, 8 }
 c = {'MTH', 'CSC', 'BIO', 'STAT'}
 
+_a_and_b = a.union(b)
+print(_a_and_b)
