@@ -51,3 +51,6 @@ _a_and_b = a.union(b)
 print(_a_and_b)
 
 print(c.difference(_a_and_b))
+
+a.remove('mango')
+print(a)
