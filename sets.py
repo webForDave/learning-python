@@ -38,3 +38,12 @@ elif userInput in sequence :
 elif userInput not in sequence :
     print('Wrong, too high')
 
+
+
+
+#-------------EXERCISE---------------
+    
+a = {'apple', 'mango', 'pear', 'carrot'}
+b = {2, 4, 6, 8 }
+c = {'MTH', 'CSC', 'BIO', 'STAT'}
+
