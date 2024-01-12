@@ -35,5 +35,6 @@ if userInput <= 0 :
 elif userInput in sequence :
     print('You guessed right, you\'re in range')
 
-else :
-    print('Try again')
+elif userInput not in sequence :
+    print('Wrong, too high')
+
