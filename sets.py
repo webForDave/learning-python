@@ -54,3 +54,6 @@ print(c.difference(_a_and_b))
 
 a.remove('mango')
 print(a)
+
+b.add(10)
+print(b)
