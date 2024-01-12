@@ -35,3 +35,13 @@ show_info(tv_show = {
     "seasons": 5,
     "initial_release": 2008
 })
+
+
+def palindromeChecker (word) :
+    
+    if word[ : : -1] == word :
+        print(f'{word} is palindrome')
+    else :
+        print(f'{word} is not a palindrome')
+
+palindromeChecker(input('Enter a word : \n'))
