@@ -6,7 +6,7 @@ menu_prompt = """Please enter one of the following options :
 - 'l' to list the books
 - 'q' to quit
 
-Please what would you like to do?"""
+Please what would you like to do? """
 
 selected_option = input(menu_prompt).strip().lower()
 
@@ -16,9 +16,7 @@ def add_book() :
 def show_book() :
     print('Displaying...')
 
-while True :
-    selected_option = input(menu_prompt).strip().lower()
-
+while selected_option != 'q' :
 
     if selected_option == 'a' :
         add_book()
