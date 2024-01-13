@@ -23,8 +23,9 @@ def add_book() :
 
 
 def show_book() :
-        for book in reading_list:
-            print(f"{book['title']}, by {book['author']} ({book['year']})")
+    for book in reading_list:
+        title, author, year = book.values()
+        print(f"{title}, by {author} ({year}")
 
 while selected_option != 'q' :
 
