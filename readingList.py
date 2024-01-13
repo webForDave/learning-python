@@ -10,7 +10,10 @@ Please what would you like to do?"""
 
 selected_option = input(menu_prompt).strip().lower()
 
-while selected_option != 'q' :
+while True :
+    selected_option = input(menu_prompt).strip().lower()
+
+
     if selected_option == 'a' :
         print('Adding...')
 
@@ -19,5 +22,3 @@ while selected_option != 'q' :
 
     else : 
         print(f'Sorry, {selected_option} isn\'t a valid option')
-
-    selected_option = input(menu_prompt).strip().lower()
