@@ -33,7 +33,10 @@ while selected_option != 'q' :
         add_book()
 
     elif selected_option == 'l' :
-        show_book()
+        if reading_list :
+            show_book()
+        else :
+            print('Reading list is empty')
 
     else : 
         print(f'Sorry, {selected_option} isn\'t a valid option')
