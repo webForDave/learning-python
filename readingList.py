@@ -7,3 +7,5 @@ menu_prompt = """Please enter one of the following options...
 - 'q' to quit
 
 Please what would you like to do?"""
+
+selected_option = input(menu_prompt).strip().lower()
