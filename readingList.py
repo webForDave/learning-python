@@ -21,10 +21,12 @@ while True :
 
 
     if selected_option == 'a' :
-        print('Adding...')
+        add_book()
 
     elif selected_option == 'l' :
-        print('Displaying...')
+        show_book()
 
     else : 
         print(f'Sorry, {selected_option} isn\'t a valid option')
+
+    selected_option = input(menu_prompt).strip().lower()
