@@ -10,6 +10,12 @@ Please what would you like to do?"""
 
 selected_option = input(menu_prompt).strip().lower()
 
+def add_book() :
+    print('Adding...')
+
+def show_book() :
+    print('Displaying...')
+
 while True :
     selected_option = input(menu_prompt).strip().lower()
 
