@@ -11,17 +11,15 @@ Please what would you like to do? """
 selected_option = input(menu_prompt).strip().lower()
 
 def add_book() :
-    title = input("Title: ").strip().title()
-    author = input("Author: ").strip().title()
-    year = input("Year of publication: ").strip()
+     title = input("Title: ").strip().title()
+     author = input("Author: ").strip().title()
+     year = input("Year of publication: ").strip()
 
-    new_book = {
+     reading_list.append({
         "title": title,
         "author": author,
         "year": year
-    }
-
-    reading_list.append(new_book)
+      })
 
 
 def show_book() :
